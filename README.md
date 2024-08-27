@@ -1,2 +1,4 @@
 # my-lab
-Monorepo where I can have some fun
+Welcome to My lab! 
+
+This is where I explore technologies and have fun with it!
