@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "my-space": "pnpm --filter my-space dev"
+      "my-space": "pnpm --filter my-space dev",
+      "build:my-space": "pnpm --filter my-space build"
   },
   "keywords": [],
   "author": "",
