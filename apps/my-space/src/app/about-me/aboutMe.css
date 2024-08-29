@@ -1,12 +1,13 @@
 .about-me {
+    --content-width: clamp(400px, 100%, 1200px);
     background-color: var(--surface-color);
 }
 
 .hero {
     display: grid;
-    width: clamp(400px, 100%, 1200px);
+    width: var(--content-width);
     margin: auto;
-    gap: 20px;
+    gap: 40px 20px;
     padding: 40px;
     grid-template-columns: 1fr auto;
     grid-template-areas: 

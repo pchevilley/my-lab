@@ -8,14 +8,22 @@
     display: flex;
     align-items: center;
     gap: 2px;
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
 }
 
 .chevpa-button--accent {
     background-color: var(--accent-color);
 }
+.chevpa-button--secondary {
+    background-color: var(--secondary-color);
+}
 
 .chevpa-button--large {
-    padding: 12px 24px;
-    font-size: 24px;
     gap: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
 }

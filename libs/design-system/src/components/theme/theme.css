@@ -1,7 +1,7 @@
 .chevpa-theme {
     --background-color: #1C1E26;
     --accent-color: #F43E5C; 
-    --surface-color: #232530;
+    --surface-color: #2E303E;
     --text-color: #FFFFFF;
     --primary-color: #21BFC2;
     --secondary-color: #6C6F93;
@@ -17,8 +17,17 @@
     }
 
     h2 {
+        font-size: 36px;
+        font-weight: 100;
+    }
+
+    h3 {
         font-size: 24px;
         font-weight: 100;
+    }
+
+    p {
+        text-align: justify;
     }
 }
 
