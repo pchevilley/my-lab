@@ -1,0 +1,22 @@
+.nav-button {
+    color: var(--text-color);
+    position: relative;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.nav-button:hover {
+    color: var(--accent-color);
+}
+
+.nav-button--selected::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+}

@@ -1,0 +1,21 @@
+.chevpa-button {
+    color: var(--text-color);
+    border: none;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.chevpa-button--accent {
+    background-color: var(--accent-color);
+}
+
+.chevpa-button--large {
+    padding: 12px 24px;
+    font-size: 24px;
+    gap: 5px;
+}

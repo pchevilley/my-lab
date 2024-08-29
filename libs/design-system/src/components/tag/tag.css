@@ -1,0 +1,8 @@
+.tag {
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    height: fit-content;
+    padding: 9px 11px;
+    border-radius: 10px;
+    font-size: 16px;
+}
