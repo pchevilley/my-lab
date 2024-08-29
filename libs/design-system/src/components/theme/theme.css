@@ -1,5 +1,6 @@
 .chevpa-theme {
     --background-color: #1C1E26;
+    --background-color-2: #232530;
     --accent-color: #F43E5C; 
     --surface-color: #2E303E;
     --text-color: #FFFFFF;
@@ -8,6 +9,7 @@
 
     height: 100vh;
     overflow: auto;
+    scroll-behavior: smooth;
     background: var(--background-color);
     color: var(--text-color);
 

@@ -4,10 +4,11 @@
 .skills__content {
     width: var(--content-width);
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 40px;
+    padding:80px var(--content-padding);
     gap: 40px;
+    
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .skills__text {
@@ -32,3 +33,11 @@
 .skills__cards__main {
     grid-area: main;
 }
+
+@media screen and (min-width: 800px) {
+    .skills__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
