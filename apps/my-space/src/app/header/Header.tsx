@@ -3,11 +3,17 @@
 import { NavButton } from "@chevpa/design-system";
 
 import "./header.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function Header() {
-    const matches = window.location.href.match(/#(\w+)/);
-    const [currentId, setCurrentId] = useState(matches && matches[1] || "");
+    const [currentId, setCurrentId] = useState("");
+
+    useEffect(() => {
+        const matches = window.location.href.match(/#(\w+)/);
+        if(matches) {
+            setCurrentId(matches[1]);
+        }
+    }, []);
 
     return <div className="header">
         <div className="header__nav">

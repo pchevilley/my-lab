@@ -18,7 +18,9 @@ export function Summary(props: SummaryProps) {
                 </div>
                 <div className="summary__experience__roles">
                     {experience.roles.map(role => (
-                        <a href="#career__content"
+                        <a 
+                            href="#career__content"
+                            key={role.name}
                             className={`summary__experiences__role ${currentRole === role ? "summary__experiences__role--selected" : ""}`}
                             onClick={() => onExperienceSelected(experience.company, role)}>
                             <h4 className="summary__experience__role-title">{role.name}</h4>
