@@ -21,6 +21,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body className={roboto.className}>
@@ -30,6 +31,16 @@ export default function RootLayout({
       </body>
       <Script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js" />
       <Script src="https://mediafiles.botpress.cloud/797f51e3-c774-4755-85d4-ca0f7142f473/webchat/v2.1/config.js"/>
+
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-FKSFJ5D8DD" />
+      <Script>
+      {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FKSFJ5D8DD');
+      `}
+      </Script>
     </html>
   );
 }
