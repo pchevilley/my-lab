@@ -48,7 +48,7 @@ export default function RootLayout({
       <Script src="https://mediafiles.botpress.cloud/797f51e3-c774-4755-85d4-ca0f7142f473/webchat/v2.1/config.js"/>
 
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-FKSFJ5D8DD" />
-      <Script>
+      <Script id="google-analytics">
       {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
