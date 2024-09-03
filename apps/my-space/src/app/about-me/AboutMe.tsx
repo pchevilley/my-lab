@@ -10,10 +10,12 @@ export function AboutMe() {
                 <h1>Hi!<br/>My name is <b>Paul</b></h1>
                 <h3>I am a professional Web developer with more than 10 years of experience</h3>
             </div>
+            <a href="/Paul Chevilley - CV.pdf" target="_blank">
             <Button className="hero__btn" large accent>
                 <i className="ri-download-line"></i>
                 Download CV
             </Button>
+            </a>
             <div className="hero__tags">
                 <Tag label="javascript" />
                 <Tag label="typescript" />

@@ -19,9 +19,11 @@ export function Skills() {
                     In my recent role at Cyncly, I led the design and implementation of scalable frontend architectures, enhancing performance and user experience. My leadership in managing teams and mentoring developers has been pivotal in delivering successful projects.
                 </p>
 
+                <a href="#contact">
                 <Button secondary large>
                     get in touch
                 </Button>
+                </a>
             </div>
         </div>
     </section>

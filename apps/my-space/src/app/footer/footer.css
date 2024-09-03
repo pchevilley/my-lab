@@ -1,0 +1,18 @@
+.footer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__links {
+    font-size: 40px;
+    display: flex;
+    gap: 10px;
+
+    a:hover {
+        color:var(--accent-color);
+    }
+}
