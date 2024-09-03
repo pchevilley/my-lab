@@ -5,3 +5,18 @@
     text-align: right;
     color: var(--secondary-color);
 }
+
+.experience-details__role {
+    margin-top: 30px;
+}
+
+.experience-details__role-name {
+    margin-bottom: 20px;
+}
+
+.experience-details__skills {
+    display: flex;
+    gap: 5px;
+    grid-area: tags;
+    flex-wrap: wrap;
+}

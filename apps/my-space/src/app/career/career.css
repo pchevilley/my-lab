@@ -20,6 +20,7 @@
 .career__content {
     padding: var(--content-padding);
     scroll-snap-align: start;
+    overflow: auto;
 }
 
 @media screen and (min-width: 800px) {
