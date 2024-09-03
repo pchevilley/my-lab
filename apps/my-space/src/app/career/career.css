@@ -22,6 +22,8 @@
     padding: var(--content-padding);
     scroll-snap-align: start;
     overflow: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 @media screen and (min-width: 800px) {
