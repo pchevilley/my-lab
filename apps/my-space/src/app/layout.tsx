@@ -13,7 +13,22 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Paul Chevilley",
-  description: "Paul Chevilley's personal website",
+  description: "Hi! This is my personal website where I talk about my career",
+  openGraph: {
+    title: "Paul Chevilley",
+    description: "Hi! This is my personal website where I talk about my career",
+    url: "https://yourwebsite.com",
+    siteName: "Paul Chevilley",
+    images: [
+      {
+        url: "https://pchevilley.me/profile.jpg",
+        width: 400,
+        height: 400,
+        alt: "Paul Chevilley's Personal Website",
+      },
+    ],
+    type: "website",
+  }
 };
 
 export default function RootLayout({
