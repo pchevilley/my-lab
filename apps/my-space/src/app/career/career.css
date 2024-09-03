@@ -7,7 +7,6 @@
     grid-template-columns: 100vw 100vw;
     overflow: auto;
     scroll-behavior: smooth;
-    scroll-snap-align: start;
 }
 
 .career__menu {
