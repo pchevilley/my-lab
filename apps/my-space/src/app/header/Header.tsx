@@ -23,7 +23,7 @@ export function Header() {
         </div>
         <div className="header__links">
             <a target="_blank" href="https://github.com/pchevilley" title="Go to my Github page"><i className="ri-github-fill" /></a>
-            <a target="_blank" href="https:/linkedin.com/in/paulchevilley" title="Go to my Linkedin profile"><i className="ri-linkedin-box-fill" /></a>
+            <a target="_blank" href="https://linkedin.com/in/paulchevilley" title="Go to my Linkedin profile"><i className="ri-linkedin-box-fill" /></a>
         </div>
     </div>
 }
