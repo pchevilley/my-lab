@@ -1,0 +1,49 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 15px;
+}
+.summary__experience__company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.summary__experience__company-img {
+    height: 24px;
+}
+
+.summary__experience__roles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.summary__experience__role-date {
+    font-size: 14px;
+    margin-top: 5px;
+    color: var(--secondary-color);
+}
+.summary__experiences__role {
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--primary-color);
+    }
+
+    &.summary__experiences__role--selected::before {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 0;
+        bottom: 0;
+        width: 4px;
+        background: var(--primary-color);
+        border-radius: 4px;
+    }
+}

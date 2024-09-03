@@ -8,11 +8,17 @@
 
 .career__menu {
     height: 100%;
-    width: 320px;
+    width: 100vw;
     background-color: var(--surface-color);
     padding: var(--content-padding);
 }
 
 .career__content {
     padding: 80px;
+}
+
+@media screen and (min-width: 800px) {
+    .career__menu {
+        width: 320px;
+    }
 }
