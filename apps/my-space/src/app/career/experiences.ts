@@ -2,7 +2,12 @@ export const experiences = [
     {
         "company": {
             "name": "Cyncly",
-            "img": "cyncly.png"
+            "img": "cyncly.png",
+            "description": `
+Cyncly provides solutions to help furniture retailers (Ikea, Lowes, B&Q...) to increase their sales. Part of the R&D
+team, I worked on Ideal Spaces, a web-based application allowing the retailers to design rooms in collaboration with
+their clients as well as internal tools to author the catalogs.
+            `
         },
         "roles": [{
             "name": "Chief architect - Frontend",

@@ -2,8 +2,11 @@
     height: 100vh;
     position: relative;
     display: grid;
-    grid-template-columns: auto 1fr;
     background: var(--background-color-2);
+    scroll-snap-type: x mandatory;
+    grid-template-columns: 100vw 100vw;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 
 .career__menu {
@@ -11,13 +14,18 @@
     width: 100vw;
     background-color: var(--surface-color);
     padding: var(--content-padding);
+    scroll-snap-align: start;
 }
 
 .career__content {
-    padding: 80px;
+    padding: var(--content-padding);
+    scroll-snap-align: start;
 }
 
 @media screen and (min-width: 800px) {
+    .career {
+        grid-template-columns: auto 1fr;
+    }
     .career__menu {
         width: 320px;
     }

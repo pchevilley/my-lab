@@ -30,4 +30,12 @@
     gap: 5px;
     position: absolute;
     right: 10px;
+    top: 34px;
+    margin: auto;
+    font-size: 22px;
+    color: var(--secondary-color);
+
+    a:hover {
+        color: var(--text-color);
+    }
 }

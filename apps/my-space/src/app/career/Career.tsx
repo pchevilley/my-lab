@@ -4,10 +4,12 @@ import { useState } from "react";
 import "./career.css";
 import { Summary } from "./Summary";
 import { experiences } from "./experiences";
+import { ExperienceDetails } from "./ExperienceDetails";
 
 export interface ICompany {
     img: string;
     name: string;
+    description?: string;
 };
 export interface IRole {
     name: string,
@@ -33,6 +35,10 @@ export function Career() {
                 setCurrentRole(role);
             }} experiences={experiences}/>
         </div>
-        <div className="career__content"></div>
+        <div id="career__content" className="career__content">
+            <ExperienceDetails
+                company={currentCompany}
+                role={currentRole} />
+        </div>
     </section>
 }

@@ -1,0 +1,7 @@
+.experience-details__company {
+    text-align: right;
+}
+.experience-details .experience-details__company-description {
+    text-align: right;
+    color: var(--secondary-color);
+}
