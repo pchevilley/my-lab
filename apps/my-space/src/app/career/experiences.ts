@@ -36,9 +36,9 @@ their clients as well as internal tools to author the catalogs.
 
 **Achievements:**
 
-- **Increased Efficiency:** The internal tool improved content editing efficiency by 40%, reducing the time required for updates and modifications.
+- **Increased Efficiency:** The internal tool improved content editing efficiency, reducing the time required for updates and modifications.
 - **Enhanced User Experience:** The new React application received positive feedback for its intuitive user interface and seamless functionality, leading to a 25% increase in user satisfaction.
-- **Standardized Design:** The Design System library led to a 30% reduction in design inconsistencies and a more unified brand presence across products.
+- **Standardized Design:** The Design System library led to a reduction in design inconsistencies and a more unified brand presence across products.
 
 **Skills Utilized:**
 
